@@ -1,0 +1,12 @@
+<div ng-controller="View3Ctrl">
+  <h4>Custom HTML tag using Angular directive: "photo" </h4>
+  <!-- Two way data binding -->
+  <photo url="applePhoto.url" caption="applePhoto.caption" width="applePhoto.width"
+         height="applePhoto.height">
+  </photo>
+
+  <div ng-repeat="otherPhoto in otherPhotos">
+    <photo url="otherPhoto.url" caption="otherPhoto.caption" width="otherPhoto.width" height="otherPhoto.height">
+    </photo>
+  </div>
+</div>

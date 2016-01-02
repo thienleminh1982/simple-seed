@@ -1,0 +1,34 @@
+<div ng-controller="View2Ctrl">
+
+    <table class="table">
+      <thead>
+      <tr>
+        <th>
+          <a href="" ng-click="order('Name')">Name</a>
+        <span class="sortorder" ng-show="predicate === 'Name'" ng-class="{reverse:reverse}">
+        </span>
+        </th>
+
+        <th>
+          <a href="" ng-click="order('City')">City</a>
+        <span class="sortorder" ng-show="predicate === 'City'" ng-class="{reverse:reverse}">
+        </span>
+        </th>
+
+        <th>
+          <a href="" ng-click="order('Country')">Country</a>
+        <span class="sortorder" ng-show="predicate === 'Country'" ng-class="{reverse:reverse}">
+        </span>
+        </th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr ng-repeat="cust in dataCustomers | orderBy:predicate:reverse" style="background-color: {{$odd ? 'yellow' : 'pink'}}">
+        <td>{{cust.Name}}</td>
+        <td>{{cust.City}}</td>
+        <td>{{cust.Country}}</td>
+      </tr>
+      </tbody>
+    </table>
+
+</div>
