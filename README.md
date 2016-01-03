@@ -1,7 +1,38 @@
 =============================================================
-Simple-seed: a clone from angular-seed, with some demo Angular functionalities
+**Simple-seed**
+    A clone from angular-seed, with some demo Angular functionalities. Just for my hands-on
 
-Author: [Minh-Thien Le]
+Submitted by: **Minh-Thien Le**
+
+Time spent: **?** hours spent in total
+
+URL: **https://sheltered-crag-3385.herokuapp.com/**
+
+## User Stories
+
+The following **required** functionality is complete:
+* [x] The User must be able to ....
+* [x] The User can see ...
+
+
+The following **optional** features are implemented:
+
+
+The following **additional** features are implemented:
+
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+![Video Walkthrough]()
+
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
+
+## Notes
+
+
+
 =============================================================
 # angular-seed — the seed for AngularJS apps
 
