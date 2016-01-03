@@ -1,7 +1,7 @@
 =============================================================
 Simple-seed: a clone from angular-seed, with some demo Angular functionalities
 
-
+Author: [Minh-Thien Le]
 =============================================================
 # angular-seed — the seed for AngularJS apps
 
